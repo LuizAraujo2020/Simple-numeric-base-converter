@@ -8,12 +8,29 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    @IBOutlet weak var input_textfield: UITextField!
+    @IBOutlet weak var convert_button: UIButton!
+    @IBOutlet weak var result_label: UILabel!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        
     }
 
+    
+    @IBAction func convert(_ sender: UIButton, forEvent event: UIEvent) {
+        
+        let decimal = input_textfield.text ?? "0"
+        print("DECIMAL: \(decimal)")
+        let binario = String(Int(decimal) ?? 0, radix: 2)
+        print("BINARIO: \(binario)") // decimal 22 prints "10110"
 
+        result_label.text = binario
+        
+    }
+    
+    
 }
-
