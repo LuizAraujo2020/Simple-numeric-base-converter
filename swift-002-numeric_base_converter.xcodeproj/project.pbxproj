@@ -16,6 +16,11 @@
 		6FBC84B026C53BDE00D36D8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FBC84AE26C53BDE00D36D8E /* LaunchScreen.storyboard */; };
 		6FBC84BB26C53BDE00D36D8E /* swift_002_numeric_base_converterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FBC84BA26C53BDE00D36D8E /* swift_002_numeric_base_converterTests.swift */; };
 		6FBC84C526C53BDE00D36D8E /* swift_002_numeric_base_converterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FBC84C426C53BDE00D36D8E /* swift_002_numeric_base_converterUITests.swift */; };
+		6FBC84D426C53CFD00D36D8E /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FBC84D326C53CFD00D36D8E /* CloudKit.framework */; };
+		6FBC84D626C53D1000D36D8E /* CoreHaptics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FBC84D526C53D1000D36D8E /* CoreHaptics.framework */; };
+		6FBC84D826C53D1900D36D8E /* AppClip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FBC84D726C53D1900D36D8E /* AppClip.framework */; };
+		6FBC84DA26C53D2500D36D8E /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FBC84D926C53D2500D36D8E /* CoreData.framework */; };
+		6FBC84DC26C53D4900D36D8E /* ImageCaptureCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FBC84DB26C53D4800D36D8E /* ImageCaptureCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,13 @@
 		6FBC84BA26C53BDE00D36D8E /* swift_002_numeric_base_converterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_002_numeric_base_converterTests.swift; sourceTree = "<group>"; };
 		6FBC84C026C53BDE00D36D8E /* swift-002-numeric_base_converterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swift-002-numeric_base_converterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FBC84C426C53BDE00D36D8E /* swift_002_numeric_base_converterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_002_numeric_base_converterUITests.swift; sourceTree = "<group>"; };
+		6FBC84D126C53CAF00D36D8E /* swift-002-numeric_base_converter.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "swift-002-numeric_base_converter.entitlements"; sourceTree = "<group>"; };
+		6FBC84D326C53CFD00D36D8E /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk/System/Library/Frameworks/CloudKit.framework; sourceTree = DEVELOPER_DIR; };
+		6FBC84D526C53D1000D36D8E /* CoreHaptics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreHaptics.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk/System/Library/Frameworks/CoreHaptics.framework; sourceTree = DEVELOPER_DIR; };
+		6FBC84D726C53D1900D36D8E /* AppClip.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppClip.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk/System/iOSSupport/System/Library/Frameworks/AppClip.framework; sourceTree = DEVELOPER_DIR; };
+		6FBC84D926C53D2500D36D8E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk/System/Library/Frameworks/CoreData.framework; sourceTree = DEVELOPER_DIR; };
+		6FBC84DB26C53D4800D36D8E /* ImageCaptureCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageCaptureCore.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk/System/Library/Frameworks/ImageCaptureCore.framework; sourceTree = DEVELOPER_DIR; };
+		6FBC84DD26C53D6000D36D8E /* libAppletTranslationLibrary.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libAppletTranslationLibrary.tbd; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk/usr/lib/libAppletTranslationLibrary.tbd; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FBC84D826C53D1900D36D8E /* AppClip.framework in Frameworks */,
+				6FBC84DA26C53D2500D36D8E /* CoreData.framework in Frameworks */,
+				6FBC84DC26C53D4900D36D8E /* ImageCaptureCore.framework in Frameworks */,
+				6FBC84D626C53D1000D36D8E /* CoreHaptics.framework in Frameworks */,
+				6FBC84D426C53CFD00D36D8E /* CloudKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +100,7 @@
 				6FBC84B926C53BDE00D36D8E /* swift-002-numeric_base_converterTests */,
 				6FBC84C326C53BDE00D36D8E /* swift-002-numeric_base_converterUITests */,
 				6FBC849E26C53BDC00D36D8E /* Products */,
+				6FBC84D226C53CFD00D36D8E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +117,7 @@
 		6FBC849F26C53BDC00D36D8E /* swift-002-numeric_base_converter */ = {
 			isa = PBXGroup;
 			children = (
+				6FBC84D126C53CAF00D36D8E /* swift-002-numeric_base_converter.entitlements */,
 				6FBC84A026C53BDC00D36D8E /* AppDelegate.swift */,
 				6FBC84A226C53BDC00D36D8E /* SceneDelegate.swift */,
 				6FBC84A426C53BDC00D36D8E /* ViewController.swift */,
@@ -125,6 +144,19 @@
 				6FBC84C426C53BDE00D36D8E /* swift_002_numeric_base_converterUITests.swift */,
 			);
 			path = "swift-002-numeric_base_converterUITests";
+			sourceTree = "<group>";
+		};
+		6FBC84D226C53CFD00D36D8E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6FBC84DD26C53D6000D36D8E /* libAppletTranslationLibrary.tbd */,
+				6FBC84DB26C53D4800D36D8E /* ImageCaptureCore.framework */,
+				6FBC84D926C53D2500D36D8E /* CoreData.framework */,
+				6FBC84D726C53D1900D36D8E /* AppClip.framework */,
+				6FBC84D526C53D1000D36D8E /* CoreHaptics.framework */,
+				6FBC84D326C53CFD00D36D8E /* CloudKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -437,16 +469,24 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "swift-002-numeric_base_converter/swift-002-numeric_base_converter.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = K328B98U3F;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "swift-002-numeric_base_converter/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Numbase;
+				INFOPLIST_KEY_CFBundleExecutable = "swift-002-numeric_base_converter";
+				INFOPLIST_KEY_CFBundleName = "swift-002-numeric_base_converter";
+				INFOPLIST_KEY_CFBundleVersion = 1;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -454,6 +494,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "luizcarlos.sa.swift-002-numeric-base-converter";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -465,16 +506,24 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "swift-002-numeric_base_converter/swift-002-numeric_base_converter.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = K328B98U3F;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "swift-002-numeric_base_converter/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Numbase;
+				INFOPLIST_KEY_CFBundleExecutable = "swift-002-numeric_base_converter";
+				INFOPLIST_KEY_CFBundleName = "swift-002-numeric_base_converter";
+				INFOPLIST_KEY_CFBundleVersion = 1;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -482,6 +531,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "luizcarlos.sa.swift-002-numeric-base-converter";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
